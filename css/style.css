@@ -1,0 +1,26 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: initial;
+}
+
+.level__number {
+    margin-left: 25px;
+}
+
+.level__button {
+    margin-left: 25px;
+    background: #ffa500;
+    color: black;
+    padding: 3px 10px;
+    border: 1px solid #ffa500;
+    text-decoration: none;
+    outline: none;
+}
